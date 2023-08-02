@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: #FF457F;
+             transition: all 10s; 
+            
+             border: 2px solid black; 
+        }
+.box:hover{
+    width: 200px;
+    height: 200px;
+     background-color: lightgreen;
+    border-radius: 0px 50%; 
+    
+}
+
+        .myimage{
+            width: 200px;
+            height: 200px;
+            border-radius:50%;
+            transition: all 2s;
+            
+        }
+
+        .myimage:hover{
+            transform: rotateZ(-180deg)
+        }
+        .mybutton{
+            background-color: #FF457F;
+            color: white;
+            padding: 5px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px; 
+            
+        }
+        .mybutton:hover{
+         background-color: aqua;
+         color: black;
+         border-radius: 0px;
+
+        }
+         a{
+         
+            background-color: #FF457F;
+             color: white; 
+             padding: 5px 20px;
+             border-radius: 5px;
+             font-size: 18px;
+             text-decoration: none;
+             font-family: sans-serif;
+            
+        } 
+    </style>
+</head>
+<body>
+   
+<a href="#" class="mybutton" style="text-decoration: none;font-family: sans-serif;">Hello</a>
+    
+
+<button class="mybutton">Home</button>    
+<br><br>
+<img src="./image/parrot.jpg" class="myimage">    
+    
+<div class="box">
+</div>    
+
+
+
+
+</body>
+</html>
